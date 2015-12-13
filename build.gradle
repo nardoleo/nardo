@@ -1,0 +1,19 @@
+allprojects{
+    group = 'com.nardo'
+    version = '0.1-SNAPSHOT'
+    apply plugin: 'maven'
+    apply plugin: 'idea'
+
+    repositories {
+        mavenLocal()
+        maven { url 'http://maven.oschina.net/content/groups/public/' }
+        mavenCentral()
+    }
+
+    uploadArchives {
+        repositories {
+            mavenLocal()
+            maven { url 'file:/Users/leo/.repository' }
+        }
+    }
+}

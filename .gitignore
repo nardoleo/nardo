@@ -1,0 +1,25 @@
+# System
+.*
+
+# Gradle
+*.iws
+*.ipr
+*.iml
+gradle/
+
+# Java
+*.class
+build/
+target/
+
+# Logs
+logs
+*.log
+
+# Runtime data
+pids
+*.pid
+*.seed
+
+# Node
+node_modules
